@@ -27,7 +27,7 @@ Compliance: Ensure that the system complies with established functional and secu
 ### To run the test:
 Run Cypress: npx cypress open
 
-Run Cypress for an individual file: npx cypress run --spec "cypress/e2e/nome-do-arquivo.cy.js"
+Run Cypress for an individual file: npx cypress run --spec "cypress/e2e/file-name.cy.js"
 
 ### Notes
 - In case of failure, add detailed comments about the error encountered.
