@@ -1,38 +1,38 @@
-## Projeto: Tech Life v1.0.1
+## Project: Tech Life v1.0.1
 
-### Teste Automatizado: Verificação de Funcionalidade de Login, Cadastro, Bloqueio, Desbloquei de usuário e Logout.
+### Automated Test: Login, Registration, Blocking, User Unblocking and Logout Functionality Check.
 
-### Objetivo
-O objetivo deste teste é garantir que essas funcionalidades críticas do sistema estejam funcionando corretamente e de forma segura.
-Esses testes visam garantir a segurança, confiabilidade e funcionalidade correta do sistema em relação ao gerenciamento de usuários. São fundamentais para:
+### Objective
+The purpose of this test is to ensure that these critical system functionalities are working correctly and safely.
+These tests aim to ensure the security, reliability and correct functionality of the system in relation to user management. They are essential for:
 
-Segurança: Evitar acessos não autorizados, garantir a confidencialidade dos dados e prevenir falhas de autenticação e autorização.
+Security: Prevent unauthorized access, guarantee data confidentiality and prevent authentication and authorization failures.
 
-Experiência do usuário: Garantir que o sistema funcione de forma fluida e responsiva em relação às ações mais comuns de login, cadastro e logout.
+User experience: Ensure that the system works fluidly and responsively in relation to the most common login, registration and logout actions.
 
-Conformidade: Assegurar que o sistema esteja em conformidade com os requisitos funcionais e de segurança estabelecidos.
+Compliance: Ensure that the system complies with established functional and security requirements.
 
-### Escopo
-- Página: http://13.37.224.17:4200/
-- Navegadores: Chrome Versão 125.0.6422.176 (x64 bits)
-- Dispositivos: Desktop
-- Sistema Operacional: Windows 10
-- Ferramenta de Teste: Cypress v13.14.2
-- Linguagem: JavaScript
+### Scope
+- Page: http://13.37.224.17:4200/
+- Browser: Chrome Versão 125.0.6422.176 (x64 bits)
+- Devices: Desktop
+- Operating System: Windows 10
+- Test Tool: Cypress v13.14.2
+- Language: JavaScript
 
-### Pré-condições
-1. O ambiente de teste deve estar configurado e acessível.
-2. Cypress deve estar instalado e configurado no projeto.
+### Preconditions
+1. The test environment must be configured and accessible.
+2. Cypress must be installed and configured in the project.
 
-### Para a execução do teste:
-Execute o Cypress: npx cypress open
+### To run the test:
+Run Cypress: npx cypress open
 
-Execute o Cypress para um arquivo individual: npx cypress run --spec "cypress/e2e/nome-do-arquivo.cy.js"
+Run Cypress for an individual file: npx cypress run --spec "cypress/e2e/nome-do-arquivo.cy.js"
 
-### Notas
-- Em caso de falha, adicione comentários detalhados sobre o erro encontrado.
-- Anexe capturas de tela, se necessário.
+### Notes
+- In case of failure, add detailed comments about the error encountered.
+- Attach screenshots if necessary.
 
 ### Status
-- **Data do Teste:** 16/09/2024
-- **Testador:** Thierry Castro 
+- **Test Date:** 16/09/2024
+- **Tester:** Thierry Castro
