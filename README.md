@@ -1,4 +1,4 @@
-## Project: Tech Life v1.0.1 
+## Project: Tech Life v1.0.1  
 
 ### Automated Test: Login, Registration, Blocking, User Unblocking and Logout Functionality Check.
 
